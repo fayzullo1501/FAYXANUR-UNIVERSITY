@@ -180,6 +180,14 @@ body {
   letter-spacing: 2px;
   margin-block-end: 5px;
 }
+.section-subtitle1 {
+  color: #A00000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: var(--fw-800);
+  letter-spacing: 2px;
+  margin-block-end: 5px;
+}
 
 .h1,
 .h2,
@@ -459,7 +467,11 @@ body {
   #CATEGORY
 \*-----------------------------------*/
 
-.category :is(.section-subtitle, .section-title) { text-align: center; }
+.category 
+ { text-align: center;
+  --section-padding: 100px;
+}
+
 
 .category .section-title { margin-block-end: 60px; }
 
@@ -515,7 +527,11 @@ body {
   #ABOUT
 \*-----------------------------------*/
 
-.about { padding-block-start: 0; }
+.about { 
+  padding-block-start: 0;
+  padding-block-end:160px; 
+
+}
 
 .about-banner {
   background-color: var(--light-gray);
@@ -566,6 +582,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-block: 160px
 }
 
 .course :is(.section-subtitle, .section-title) { text-align: center; }
@@ -704,6 +721,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;
+  padding-block: 140px
 }
 
 .cta-banner {
@@ -726,7 +744,9 @@ body {
   #EVENT
 \*-----------------------------------*/
 
-.event :is(.section-subtitle, .section-title) { text-align: center; }
+.event  { text-align: center;
+  padding-block: 160px;
+}
 
 .event .section-title { margin-block-end: 60px; }
 
@@ -1167,7 +1187,7 @@ body {
      * spacing
      */
 
-    --section-padding: 260px;
+    --section-padding: 280px;
 
   }
 
@@ -1306,7 +1326,7 @@ body {
   .navbar-top,
   .overlay { display: none; }
 
-  .header { padding-block: 40px; }
+  .header { padding-block: 15px; }
 
   .header.active { padding-block: 15px; }
 
