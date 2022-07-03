@@ -291,8 +291,8 @@ body {
 }
 
 .header-action-btn {
-  background-color: var(--white);
-  color: #A00000;
+  background-color: #A00000;
+  color: white;
   padding: 12px;
   border-radius: var(--radius-4);
   box-shadow: var(--shadow-1);
