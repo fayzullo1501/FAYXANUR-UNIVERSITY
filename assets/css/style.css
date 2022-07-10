@@ -376,7 +376,7 @@ body {
 .search-container {
   position: fixed;
   inset: 0;
-  background-color: var(--space-cadet_80);
+  background-color: #000000cc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,6 +407,7 @@ body {
 }
 
 .search-wrapper { position: relative; }
+.reg-wrapper { position: relative; }
 
 .search-field {
   background-color: var(--white);
