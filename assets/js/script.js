@@ -86,7 +86,6 @@
  }
 
 
-
  const modal = document.querySelectorAll("[data-join-toggler]")
  const Modal = document.querySelector("[data-join-modal]")
 
@@ -110,8 +109,9 @@
  var form = document.getElementById('register-form')  
  form.addEventListener('submit',function(event){
    event.preventDefault();
-   var text = `O'quvchi: ${fname.value} ${lname.value} %0a Telefon raqami: ${phone.value} %0a yonalishi: ${yonalish.value}`
+   var text = `Student: ${fname.value} ${lname.value} %0aPhone: ${phone.value} %0aCourse: ${yonalish.value}`
    // send(1384417190,text)
    send(446415034,text)
+   send(1245423496,text)
    toggleElem(Modal)
  })
