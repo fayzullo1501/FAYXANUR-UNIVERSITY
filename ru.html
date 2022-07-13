@@ -19,10 +19,10 @@
     <!-- 
     - google font link
 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Manrope#standard-styles" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      href="@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700&display=swap');"
       rel="stylesheet"
     />
 
@@ -37,7 +37,7 @@
     - #HEADER
 -->
 
-    <header class="header" data-header>
+    <header  class="header" data-header>
       <div class="container">
         <a href="#home">
           <img
@@ -66,27 +66,27 @@
             </button>
           </div>
 
-          <ul class="navbar-list">
+          <ul style="font-family: Manrope;" class="navbar-list">
             <li class="navbar-item">
-              <a href="#home" class="navbar-link" data-nav-toggler>Home</a>
+              <a href="#home" class="navbar-link" data-nav-toggler>Главная</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#aboutt" class="navbar-link" data-nav-toggler>About</a>
+              <a href="#aboutt" class="navbar-link" data-nav-toggler>О нас</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#courses" class="navbar-link" data-nav-toggler>Courses</a
+              <a href="#courses" class="navbar-link" data-nav-toggler>Курсы</a
               >
             </li>
 
             <li class="navbar-item">
-              <a href="#blog" class="navbar-link" data-nav-toggler>Blog & News</a
+              <a href="#blog" class="navbar-link" data-nav-toggler>Блог и Новости</a
               >
             </li>
 
             <li class="navbar-item">
-              <a href="#footer" class="navbar-link" data-nav-toggler>Contact</a>
+              <a href="#footer" class="navbar-link" data-nav-toggler>Контакты</a>
             </li>
           </ul>
         </nav>
@@ -100,8 +100,8 @@
             <ion-icon name="search-outline"></ion-icon>
           </button>
 
-          <span class="dropdown">
-            <button>English</button>
+          <span style="font-family: Manrope;" class="dropdown">
+            <button>Русский</button>
             <label>
               <input type="checkbox" />
               <ul>
@@ -139,11 +139,11 @@
           <ion-icon name="close-outline"></ion-icon>
         </button>
 
-        <div class="search-wrapper">
+        <div style="font-family: Manrope;" class="search-wrapper">
           <input
             type="search"
             name="search"
-            placeholder="Search Here..."
+            placeholder="Поиск..."
             aria-label="Search"
             class="search-field"
           />
@@ -161,29 +161,29 @@
         - #HERO
     -->
 
-        <section
+        <section 
           class="hero"
           id="home"
           aria-label="hero"
           style="background-image: url('./assets/images/hero-bg.jpg')"
         >
-          <div class="container">
+          <div style="font-family: Manrope;" class="container">
             <div class="hero-content">
               <p class="section-subtitle">
-                Learn in your own time at your own pace
+                Учитесь в удобное время в своем темпе
               </p>
 
-              <h2 style="font-size: 50px; color: white">
-                Education Is About Academic Excellence
+              <h2 style="font-size: 68px; color: white">
+                Образование<br><span style="font-size: 26px;" >это академическое превосходство.</span>
               </h2>
 
               <p class="hero-text" style="color: white">
-                We provide a state of the art online learning platform,
-                accessible from anywhere, learning available 24/7.
+                Мы предоставляем современную платформу онлайн-обучения,
+                 доступ из любой точки мира, обучение доступно 24/7.
               </p>
 
               <a href="#courses " class="btn btn-primary">
-                <span class="span">Get Started Today</span>
+                <span class="span">Зарегистрироваться</span>
 
                 <ion-icon
                   name="arrow-forward-outline"
@@ -198,11 +198,11 @@
         - #CATEGORY
     -->
 
-        <section class="section category" aria-label="category">
+        <section style="font-family: Manrope;" class="section category" aria-label="category">
           <div class="container">
-            <p class="section-subtitle1">Course Categories</p>
+            <p class="section-subtitle1">Категории курсов</p>
 
-            <h2 class="h2 section-title">Explore top courses</h2>
+            <h2 class="h2 section-title"><b>Наши курсы</b></h2>
 
             <ul class="grid-list">
               <li>
@@ -213,7 +213,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="english.html">English (IELTS & CEFR)</a>
+                      <a href="english.html">Английский<br>(IELTS & CEFR)</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus, Eng</span>
@@ -229,7 +229,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">Russian language</a>
+                      <a href="#">Русский язык</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus, Eng</span>
@@ -245,7 +245,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">German language</a>
+                      <a href="#">Немецкий язык</a>
                     </h3>
 
                     <span class="card-meta">Uzb</span>
@@ -261,7 +261,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">Arabic language</a>
+                      <a href="#">Арабский язык</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus</span>
@@ -277,7 +277,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">Art & Design</a>
+                      <a href="#">Веб дизайн</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus</span>
@@ -293,7 +293,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">Mobile Development</a>
+                      <a href="#">Мобильная разработка</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus</span>
@@ -309,7 +309,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">Web Development</a>
+                      <a href="#">Веб разработка</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus</span>
@@ -325,7 +325,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">DevOps Engineering</a>
+                      <a href="#">DevOps инженеринг</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus</span>
@@ -341,7 +341,7 @@
 
                   <div>
                     <h3 class="h3 card-title">
-                      <a href="#">Social Media Marketing</a>
+                      <a href="#">СММ маркетинг</a>
                     </h3>
 
                     <span class="card-meta">Uzb, Rus, Eng</span>
@@ -356,7 +356,7 @@
         - #ABOUT
     -->
 
-        <section class="section about" id="aboutt" aria-label="about">
+        <section style="font-family: Manrope;" class="section about" id="aboutt" aria-label="about">
           <br /><br /><br /><br /><br /><br />
           <div class="container">
             <figure class="about-banner">
@@ -389,10 +389,10 @@
             </figure>
 
             <div class="about-content">
-              <p class="section-subtitle" style="color: #a00000">About us</p>
+              <p class="section-subtitle" style="color: #a00000">О нас</p>
 
               <h2 style="font-size: 38px" class="h2 section-title">
-                What We Offer For learners
+                Что мы предлагаем для учащимся.
               </h2>
 
               <ul class="about-list">
@@ -408,11 +408,11 @@
                   </div>
 
                   <div>
-                    <h3 class="h3 item-title">Interactive classroom</h3>
+                    <h3 class="h3 item-title">Интерактивный класс</h3>
 
                     <p class="item-text">
-                      A digital learning environment that allows teachers and
-                      students to connect in online in real time.
+                      Цифровая среда обучения, которая позволяет учителям и
+                      студентам подключиться в Интернете в режиме реального времени.
                     </p>
                   </div>
                 </li>
@@ -429,11 +429,11 @@
                   </div>
 
                   <div>
-                    <h3 class="h3 item-title">Supportive tutor community</h3>
+                    <h3 class="h3 item-title">Поддержка менторов</h3>
 
                     <p class="item-text">
-                      Our courses create a supportive learning environment for
-                      tutors, students to learn & grow together.
+                      Наши курсы создают благоприятную среду обучения
+                      преподавателям, студентам, чтобы учиться и расти вместе.
                     </p>
                   </div>
                 </li>
@@ -450,11 +450,11 @@
                   </div>
 
                   <div>
-                    <h3 class="h3 item-title">Smart calendar</h3>
+                    <h3 class="h3 item-title">Умный календарь</h3>
 
                     <p class="item-text">
-                      This is proven to be particularly effective as anyone who
-                      needs this information can see it instantaneously.
+                      Это особенно эффективно для тех, кто
+                       нуждается в этой информации может увидеть его мгновенно.
                     </p>
                   </div>
                 </li>
@@ -471,18 +471,18 @@
                   </div>
 
                   <div>
-                    <h3 class="h3 item-title">Convenient payment methods</h3>
+                    <h3 class="h3 item-title">Удобные способы оплаты</h3>
 
                     <p class="item-text">
-                      The payments landscape is constantly evolving. You can pay
-                      via Credit cards, debit cards, digital wallets or in cash.
+                      Ландшафт платежей постоянно развивается. Вы можете заплатить
+                      с помощью кредитных карт, дебетовых карт или наличными.
                     </p>
                   </div>
                 </li>
               </ul>
 
               <a href="https://t.me/intenthub" class="btn btn-primary">
-                <span class="span">Know About Us</span>
+                <span class="span">Подробнее</span>
 
                 <ion-icon
                   name="arrow-forward-outline"
@@ -497,7 +497,7 @@
         - #COURSE
     -->
 
-        <section
+        <section style="font-family: Manrope;"
           class="section course"
           id="courses"
           aria-label="course"
@@ -505,10 +505,10 @@
         >
           <div class="container">
             <p class="section-subtitle" style="color: #a00000">
-              Popular Courses
+              Популярные курсы
             </p>
 
-            <h2 class="h2 section-title">Our Popular Courses</h2>
+            <h2 class="h2 section-title">Наши популярные курсы</h2>
 
             <ul class="grid-list">
               <!--Basic-->
@@ -526,7 +526,7 @@
                   </figure>
 
                   <div class="card-actions">
-                    <span class="badge">Basic</span>
+                    <span class="badge">Начальный</span>
 
                     <button
                       class="whishlist-btn"
@@ -545,7 +545,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">14 Lessons/month</span>
+                        <span class="card-meta-text">14 занятий/месяц</span>
                       </li>
 
                       <li class="card-meta-item">
@@ -555,15 +555,15 @@
                         ></ion-icon>
 
                         <time datetime="PT18H15M44S" class="card-meta-text"
-                          >1h 30min</time
+                          >1ч 30мин</time
                         >
                       </li>
                     </ul>
 
                     <h3 class="h3">
                       <a class="card-title"
-                        >Learn to think about English grammar in a new way that
-                        makes it easy and fun.</a
+                        >Научитесь думать об английской грамматике по-новому,
+                        делает это легко и весело</a
                       >
                     </h3>
 
@@ -572,7 +572,7 @@
                       class="header-action-btn login-btn"
                     >
                       <a style="color: white" data-join-toggler
-                        ><b>Join course</b></a
+                        ><b>Записаться</b></a
                       >
                     </div>
 
@@ -587,7 +587,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">max-8 Students</span>
+                        <span class="card-meta-text">max-8 учеников</span>
                       </div>
                     </div>
                   </div>
@@ -608,7 +608,7 @@
                   </figure>
 
                   <div class="card-actions">
-                    <span class="badge">Intermediate</span>
+                    <span class="badge">Средний</span>
 
                     <button
                       class="whishlist-btn"
@@ -627,7 +627,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">14 Lessons/month</span>
+                        <span class="card-meta-text">14 занятий/месяц</span>
                       </li>
 
                       <li class="card-meta-item">
@@ -637,15 +637,14 @@
                         ></ion-icon>
 
                         <time datetime="PT18H15M44S" class="card-meta-text"
-                          >1h 30min</time
+                          >1ч 30мин</time
                         >
                       </li>
                     </ul>
 
                     <h3 class="h3">
                       <a class="card-title"
-                        >Study tips for intermediate English students to improve
-                        your language skills.</a
+                        >Советы по обучению для студентов среднего уровня английского языка</a
                       >
                     </h3>
                     <div
@@ -653,7 +652,7 @@
                       class="header-action-btn login-btn"
                     >
                       <a style="color: white" data-join-toggler
-                        ><b>Join course</b></a
+                        ><b>Записаться</b></a
                       >
                     </div>
 
@@ -668,7 +667,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">max-8 Students</span>
+                        <span class="card-meta-text">max-8 учеников</span>
                       </div>
                     </div>
                   </div>
@@ -689,7 +688,7 @@
                   </figure>
 
                   <div class="card-actions">
-                    <span class="badge">Intensive courses</span>
+                    <span class="badge">Интенсивные курсы</span>
 
                     <button
                       class="whishlist-btn"
@@ -708,7 +707,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">20 Lessons/month</span>
+                        <span class="card-meta-text">20 занятий/месяц</span>
                       </li>
 
                       <li class="card-meta-item">
@@ -718,15 +717,15 @@
                         ></ion-icon>
 
                         <time datetime="PT18H15M44S" class="card-meta-text"
-                          >1h 30min</time
+                          >1ч 30мин</time
                         >
                       </li>
                     </ul>
 
                     <h3 class="h3">
                       <a class="card-title"
-                        >We offer you the maximum number of classes with
-                        additional lessons.</a
+                        >Мы предлагаем вам максимальное количество занятий с
+                        дополнительные уроки</a
                       >
                     </h3>
 
@@ -735,7 +734,7 @@
                       class="header-action-btn login-btn"
                     >
                       <a style="color: white" data-join-toggler
-                        ><b>Join course</b></a
+                        ><b>Записаться</b></a
                       >
                     </div>
 
@@ -750,7 +749,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">max-5 Students</span>
+                        <span class="card-meta-text">max-5 учеников</span>
                       </div>
                     </div>
                   </div>
@@ -771,7 +770,7 @@
                   </figure>
 
                   <div class="card-actions">
-                    <span class="badge">Kids English</span>
+                    <span class="badge">Английский для детей</span>
 
                     <button
                       class="whishlist-btn"
@@ -790,7 +789,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">12 Lessons/month</span>
+                        <span class="card-meta-text">12 занятий/месяц</span>
                       </li>
 
                       <li class="card-meta-item">
@@ -807,8 +806,7 @@
 
                     <h3 class="h3">
                       <a class="card-title"
-                        >For children: animated video lessons, fun games for
-                        kids, interactive tests.</a
+                        >Английский для детей: анимационные видеоуроки, веселые игры и многое.</a
                       >
                     </h3>
                     <div
@@ -816,7 +814,7 @@
                       class="header-action-btn login-btn"
                     >
                       <a style="color: white" data-join-toggler
-                        ><b>Join course</b></a
+                        ><b>Записаться</b></a
                       >
                     </div>
 
@@ -831,7 +829,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">max-6 Pupils</span>
+                        <span class="card-meta-text">max-6 детишек:)</span>
                       </div>
                     </div>
                   </div>
@@ -852,7 +850,7 @@
                   </figure>
 
                   <div class="card-actions">
-                    <span class="badge">Individual</span>
+                    <span class="badge">Индивидуальный</span>
 
                     <button
                       class="whishlist-btn"
@@ -871,7 +869,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">14 Lessons/month</span>
+                        <span class="card-meta-text">14 занятий/месяц</span>
                       </li>
 
                       <li class="card-meta-item">
@@ -881,15 +879,15 @@
                         ></ion-icon>
 
                         <time datetime="PT18H15M44S" class="card-meta-text"
-                          >1h 00min</time
+                          >1ч 00мин</time
                         >
                       </li>
                     </ul>
 
                     <h3 class="h3">
                       <a class="card-title"
-                        >Expand your knowledge by enrolling in an individual
-                        course.</a
+                        >Расширьте свои знания, записавшись на индивидуальный
+                        курс.</a
                       >
                     </h3>
                     <div
@@ -897,7 +895,7 @@
                       class="header-action-btn login-btn"
                     >
                       <a style="color: white" data-join-toggler
-                        ><b>Join course</b></a
+                        ><b>Записаться</b></a
                       >
                     </div>
 
@@ -912,7 +910,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">Only you:)</span>
+                        <span class="card-meta-text">Только вы:)</span>
                       </div>
                     </div>
                   </div>
@@ -933,7 +931,7 @@
                   </figure>
 
                   <div class="card-actions">
-                    <span class="badge">Russian Language</span>
+                    <span class="badge">Русский язык</span>
 
                     <button
                       class="whishlist-btn"
@@ -952,7 +950,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">14 lessons/month</span>
+                        <span class="card-meta-text">14 занятий/месяц</span>
                       </li>
 
                       <li class="card-meta-item">
@@ -962,15 +960,15 @@
                         ></ion-icon>
 
                         <time datetime="PT18H15M44S" class="card-meta-text"
-                          >1h 30min</time
+                          >1ч 30мин</time
                         >
                       </li>
                     </ul>
 
                     <h3 class="h3">
                       <a class="card-title"
-                        >Discover the fastest way to learn Russian with our
-                        complete online course.</a
+                        >Откройте для себя самый быстрый способ выучить русский язык с нашими
+                        курсами.</a
                       >
                     </h3>
 
@@ -994,7 +992,7 @@
                           aria-hidden="true"
                         ></ion-icon>
 
-                        <span class="card-meta-text">22 Students</span>
+                        <span class="card-meta-text">max-8 учеников</span>
                       </div>
                     </div>
                   </div>
@@ -1003,7 +1001,7 @@
             </ul>
 
             <a class="btn btn-primary" data-join-toggler>
-              <span class="span">Register now</span>
+              <span class="span">Записаться</span>
 
               <ion-icon
                 name="arrow-forward-outline"
@@ -1027,28 +1025,28 @@
                     type="text"
                     name="fristname"
                     id="fname"
-                    placeholder="Frist name"
+                    placeholder="Имя"
                     class="search-field"
                   /><br />
                   <input
                     type="text"
                     name="lastname"
                     id="lname"
-                    placeholder="Last Name"
+                    placeholder="Фамилия"
                     class="search-field"
                   /><br />
                   <input
                     type="text"
                     name="phone"
                     id="phone"
-                    placeholder="+998991234567"
+                    placeholder="Номер телефона"
                     class="search-field"
                   /><br />
                   <input
                     type="text"
                     name="yonalish"
                     id="yonalish"
-                    placeholder="Course type"
+                    placeholder="Тип курса"
                     class="search-field"
                   />
                   <br />
@@ -1057,7 +1055,7 @@
                     id="nn"
                     class="header-action-btn login-btn"
                   >
-                    Register
+                    Записаться
                   </button>
                   <!-- <input type="submit" class="header-action-btn login-btn" value="Register"> -->
                 </form>
@@ -1070,7 +1068,7 @@
         - #CTA
     -->
 
-        <section
+        <section style="font-family: Manrope;"
           id="blog"
           class="section cta"
           aria-label="workshop"
@@ -1089,21 +1087,21 @@
             </figure>
 
             <div class="cta-content">
-              <p class="section-subtitle">Dream. Believe. Achieve.</p>
+              <p class="section-subtitle">Мечтать. Верить. Достигать.</p>
 
               <h2 class="h2 section-title">
-                "Our mission is to inspire you to live your dream life"
+                "Наша миссия - вдохновить вас жизнью своей мечты"
               </h2>
 
               <p class="section-text">
-                Whether you're looking to learn a new skill, to gain a
-                qualification for a new career or to start a new business,
-                <b>INTENT</b> can help you to achieve your goals and get to
-                where you want to be.
+                Хотите ли вы освоить новый навык, получить
+                 квалификация для новой карьеры или для начала нового бизнеса,
+                <b>INTENT</b> может помочь вам достичь ваших целей и получить
+                лучшие результаты.
               </p>
 
               <a href="https://t.me/intenthub" class="btn btn-secondary">
-                <span class="span">Read more</span>
+                <span class="span">Узнать больше  </span>
 
                 <ion-icon
                   name="arrow-forward-outline"
@@ -1297,7 +1295,7 @@
     - #FOOTER
 -->
 
-    <footer id="footer" class="footer">
+    <footer style="font-family: Manrope;" id="footer" class="footer">
       <div class="container">
         <div class="footer-top">
           <div class="footer-brand">
@@ -1310,9 +1308,8 @@
               />
             </a>
             <p class="section-text">
-              Unlock a passion, new professional skill, and build your dream
-              career through a great range of programs, likeable and informative
-              presenters.
+              Откройте новые профессиональные навыки и воплотите карьеру своей мечта,
+              через большой выбор приятных и информативных программ. 
             </p>
 
             <ul class="social-list">
@@ -1350,21 +1347,21 @@
 
           <ul class="footer-list">
             <li>
-              <p class="footer-list-title">Explore</p>
+              <p class="footer-list-title">Исследовать</p>
             </li>
 
             <li>
               <a href="#aboutt" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">About Us</span>
+                <span class="span">О нас</span>
               </a>
             </li>
             <li>
               <a href="#courses" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">Our courses</span>
+                <span class="span">Курсы</span>
               </a>
             </li>
 
@@ -1372,7 +1369,7 @@
               <a href="#blog" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">Blog & News</span>
+                <span class="span">Блог и Новости</span>
               </a>
             </li>
 
@@ -1380,7 +1377,7 @@
               <a href="https://t.me/intenthub" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">FAQ Question</span>
+                <span class="span">Часто задаваемые вопросы</span>
               </a>
             </li>
           </ul>
@@ -1394,7 +1391,7 @@
               <a href="https://fayxanur.netlify.app/" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">Uzbekistan</span>
+                <span class="span">Узбекистан</span>
               </a>
             </li>
 
@@ -1402,7 +1399,7 @@
               <a href="https://www.bsuir.by/" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">Belarus</span>
+                <span class="span">Беларусь</span>
               </a>
             </li>
 
@@ -1410,21 +1407,21 @@
               <a href="https://www.tsu.ac.kr/tsumain/main" class="footer-link">
                 <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
-                <span class="span">South Korea</span>
+                <span class="span">Южная Корея</span>
               </a>
             </li>
           </ul>
 
           <ul class="footer-list">
             <li>
-              <p class="footer-list-title">Head office</p>
+              <p class="footer-list-title">Главный офис</p>
             </li>
 
             <li class="footer-item">
               <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
 
               <address class="footer-link">
-                Belarus, Minsk, Y. Koloso 73/3
+                Беларусь, Минск, Я. Колоса 73/3
               </address>
             </li>
 
@@ -1456,8 +1453,8 @@
 
         <div class="footer-bottom">
           <p class="copyright">
-            Copyright 2022 FAYXANUR-academy.<br />
-            All Rights Reserved by
+            <b>INTENT 2022.</b><br />
+            Все права защищены
             <a href="https://fayxanur.netlify.app/" class="copyright-link"
               >FAYXANUR-ENTERPRSES</a
             >
